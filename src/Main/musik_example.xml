@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE musikbibliothek SYSTEM "musik.dtd">
+<musikbibliothek ersteller="Dragos">
+    <album genre="Rock" titel="Siren Charms">
+        <band>In Flames</band>
+        <tracks>
+            <song>In Plain View</song>
+            <song>Trough Oblivion</song>
+            <song>Dead Eyes</song>
+        </tracks>
+    </album>
+</musikbibliothek>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <!ELEMENT restaurant (name) (location)+>
+    <!ELEMENT location (name)? (address) (schedule)* (dailymenu)+>
+    <!ATTLIST schedule day CDATA #REQUIRED>
+    <!ELEMENT schedule (opentime) (closetime)>
+    <!ELEMENT opentime (#PCDATA)>
+    <!ELEMENT closetime (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT address (city) (street) (number)>
+    <!ELEMENT city (#PCDATA)>
+    <!ELEMENT street (#PCDATA)>
+    <!ELEMENT number (#PCDATA)>
+    <!ELEMENT dailymenu (date) (food)+>
+    <!ELEMENT date (#PCDATA)>
+    <!ELEMENT food (review)?>
+    <!ATTLIST food foodname CDATA #REQUIRED foodtype CDATA ("Primary"|"Starter") "Primary" #REQUIRED>
+    <!ELEMENT review (comment)?>
+    <!ATTLIST review points CDATA #REQUIRED>
+    <!ELEMENT comment (#PCDATA)>

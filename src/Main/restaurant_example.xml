@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE restaurant SYSTEM "restaurant.dtd">
+<restaurant>
+    <name>Restaurant Name</name>
+    <location>
+        <name>Location Name</name>
+        <address>
+            <city>Brasov</city>
+            <street>Calea Bucuresti</street>
+            <number>40</number>
+        </address>
+        <schedule day="Monday">
+            <opentime>08:00</opentime>
+            <closetime>18:00</closetime>
+        </schedule>
+        <schedule day="Tuesday">
+            <opentime>09:00</opentime>
+            <closetime>20:00</closetime>
+        </schedule>
+        <dailymenu>
+            <date>12/7/2021</date>
+            <food foodname="Potatoes" foodtype="Starter">
+                <review points="5">
+                    <comment>Generic but quality</comment>
+                </review>
+            </food>
+        </dailymenu>
+        <dailymenu>
+            <date>12/8/2021</date>
+            <food foodname="Steak">
+                <review points="4.5"></review>
+            </food>
+            <food foodname="Ribs">
+            </food>
+            <food foodname="Soup" foodtype="Starter">
+            </food>
+        </dailymenu>
+    </location>
+
+</restaurant>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!ELEMENT musikbibliothek (album)*>
+        <!ATTLIST musikbibliothek ersteller CDATA #REQUIRED>
+        <!ELEMENT album (band, tracks)>
+        <!ATTLIST album genre CDATA #REQUIRED
+                titel CDATA #REQUIRED>
+        <!ELEMENT tracks (song)*>
+        <!ELEMENT band (#PCDATA)>
+        <!ELEMENT song (#PCDATA)>
